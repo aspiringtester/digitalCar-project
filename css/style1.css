@@ -1,0 +1,104 @@
+/* nav bar style */
+.navbar {
+    width: 100%;
+  background-color: #1c1c3f;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  display: flex;
+  padding: 8px;
+  background-color: #1c1c3f;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:aqua;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+}
+
+/* car section style */
+.sectionHeading{
+    color: #1c1c3f;
+    font-family:'Lucida Sans';
+    padding-top: 10px;
+    padding-bottom: 10px;;
+    text-align: center;
+}
+
+.displayCar {
+    display: flex;
+}
+.displayCar img {
+    border-radius: 10%;
+    padding: 2%;
+    height: 500px;
+}
+@media only screen and (max-width: 480px){
+    .displayCar {
+        display:block;
+    }
+}
+
+
+/* enquiry form style */
+
+#enquiry {
+    background-color:aliceblue;
+}  
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:#57c1f1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #1c1c3f;
+  }
+
+  /* enquiry form style ends */
+
+  /* contact section style starts*/
+
+  #contact {
+    color:#1c1c3f;
+
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+  .foot {
+    width: 100%;
+   
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #1c1c3f;
+    color:azure;
+    text-align: center;
+}
+    
+
+
+
